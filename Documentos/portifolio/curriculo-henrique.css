@@ -1,0 +1,75 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+header {
+    background-color: #ce1477;
+    padding: 50px;
+    text-align: center;
+    color: #fcfcfc;
+}
+
+header > img {
+    border-radius: 700%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+nav {
+    margin-top: 20px; /* define a margem superior para 20 pixels */
+    background-color: #CE1477;
+    text-align: center;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 50px;
+}
+
+nav > ul > li {
+    display: inline;
+    padding: 1.8%;
+}
+
+section {
+    background-color:#CE1477;
+    color: #fcfcfc;
+    margin: 35px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+li > a {
+    text-decoration: none;
+    color: #fcfcfc;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer {
+    background-color:#CE1477;
+    padding: 18px;
+    text-align: center;
+    color: #fcfcfc;
+}
+
+.button {
+    border: 0;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    background-color: #8697A6;
+}
+
+.button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
